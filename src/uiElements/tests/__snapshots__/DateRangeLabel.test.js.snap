@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test that we can render the DateRangeLabel 1`] = `
+<span
+  className="date-range-label"
+>
+  23 00:00 - 24 23:59 June 2017
+</span>
+`;
+
+exports[`when the date range is less than 7days it displays time 1`] = `
+<span
+  className="date-range-label"
+>
+  23 00:00 - 24 23:59 June 2017
+</span>
+`;

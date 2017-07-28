@@ -1,0 +1,52 @@
+/*
+.chart .axis text {
+    font: 11px sans-serif;
+}
+
+.chart .axis path {
+    display: none;
+}
+
+.chart .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.chart .grid-background {
+    fill: #ddd;
+}
+
+.chart
+.grid line,
+.grid path {
+    fill: none;
+    stroke: #b4b4b4;
+    shape-rendering: crispEdges;
+}
+
+.dev-labs
+.grid .minor.tick line {
+    stroke-opacity: .5;
+}
+
+.dev-labs
+.brush .extent {
+
+}*/
+
+/* Style the horizontal line of the first axis */
+.x-axis path {
+    stroke: #c1c1c1;
+}
+
+/* Style the ticks of the first axis*/
+.x-axis .tick line {
+    stroke: #c1c1c1;
+}
+
+/* Hide the line of the second axis*/
+.xx-axis path {
+    display: none;
+}
+
